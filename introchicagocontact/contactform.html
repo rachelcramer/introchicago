@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>Contact</title>  
+  <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <script src="validate.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Thasadith" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <nav class="main-nav">
+    <ul>
+    <li><img src="assets/Intro_Chicago_Logo_cropped.png" alt="Intro Chicago Logo"></li>
+    <li><a href="#">Home</a></li>    
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Reserve</a></li>
+    <li><a href="#">Catering</a></li>
+    <li><a href="#">Contact</a></li>
+    
+   
+    </ul>
+    </nav>
+    <nav class="mobile-nav" id="mobile">
+    <ul> 
+    <li><img src="assets/Intro_Chicago_Logo_cropped.png" alt="Intro Chicago Logo"></li>
+    <div class="topnav" id="myTopnav">  
+    <a href="#">Home</a>   
+    <a href="#">Menu</a>
+    <a href="#">Reserve</a>
+    <a href="#">Catering</a>
+    <a href="#">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="mobilenav()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </ul>
+    </nav>
+    <header>
+   <!--<img src="assets/Intro_Chicago_Logo_cropped.png" alt="Intro Chicago Logo">--> 
+</header>
+
+<body>
+    
+    <div class="pho"><img src="assets/foodheadercropped.png" alt="Bowl of pho with soy and chili paste in side dishes"> </div>
+    <div class="pho-full"><img src="assets/foodheader.png"></div>
+   
+<div class="row"><div class="chef-container">
+    <img src="assets/bryan-collante.jpg" alt="Chef with crossed arms in front of white wall">
+<h1>Intro Chicago welcomes Chef Collante</h1>
+<p>Chef Bryan Collante was named Chef of the Year at the 2017 Jean Banchet Awards for his work at this West Loop spot from the owners of Alinea and Next. Now Chef Collante is bringing his talent to Intro Chicago! To celebrate, we are offering his current Thai-inspired tasting menu featuring six courses including seared Kobe beef and Fried Prawn Cake with Red Curry for the whole month of April.</p> <p>Tickets are $85 Sunday through Thursday and $95 Friday and Saturday, with a beverage package available for another $35.</p>    
+    </div>
+    <div class="menu">
+<h1>Menu</h1>
+<div class="menuleft"><h2>Trio Platter</h2>
+<p>Golden Basket of chicken, shrimp, sweet peas, corn, shitake mushrooms and carrots; Shrimp Patty wrapped in a thin tofu sheet with sweet plum sauce; Lotus Blossom Dumplings of lightly seasoned chicken</p><hr>
+    <h2>Crab Cake</h2>
+    <p>Dungeness Crab Meat, Crispy Crab-Taro Pouch, Kabocha Mayo, Garden Salad and Sesame-Soy Vinaigrette</p><hr>
+        <h2>Phad Thai</h2>
+        <p>Rice Noodles, Tamarind, Lime, Bean Sprouts, Egg & Dried Tofu</p><hr></div>
+<div class="menuright"><h2>Spring Roll</h2>
+<p>Sweet Chinese Sausage, Bean Sprout, Cucumber, Tofu & Nori. Spicy Asian Mustard and House-Pickled Serrano</p><hr>
+    <h2>Cradled Prawn</h2>
+    <p>Fried Prawn Cake with Red Curry, Kaffir Lime Leaf & Sweet Basil. Fresh Cucumber/Red Onion Salad</p><hr>
+        <h2>Larb Nua Yang</h2>
+        <p>Spicy Herbed Salad, Seared Kobe Beef & Turmeric Sticky Rice</p></div>
+    </div>
+    </div>
+
+<div class="interior"><img src="assets/Vegetarian-Montreal-Restaurant-LOV.jpg" alt="Restaurant Interior"></div>
+<div class="contact-container">
+      <h1>Make a Reservation</h1>
+    <div class="contact-form">
+    <form>
+      <p>Name:<input type="text" id="name">
+        <span id="nameerror">*</span></p>
+        <p>Email:<input type="text" id="email">
+        <span id="emailerror">*</span></p>
+        <p>Phone: <input type="tel" id="phone">
+        <span id="phoneerror">*</span></p>
+        
+        <p>Date:<input type="date" id="date" min="2019-04-01" max="2019-04-30">
+        <span id="dateerror">*</span></p>
+        
+        <p>Time:<input type="time" id="time">
+        <span id="timeerror">*</span></p>
+        
+        <p>Party size:<input type="text" id="party">
+        <span id="partyerror">*</span></p>
+        
+    <p>Do you have any special requests or accomodations?: </p><textarea id="reason" cols="30" rows="5" data-component="textarea"></textarea>
+         
+        <br>
+        
+        <button type="reset" onclick="">Reset</button>
+        <button type="button" onclick="formValidate()">Submit</button>
+        
+        
+        
+        </form>
+    
+ 
+    
+    </div>
+    
+</div>
+
+<footer>
+    <div class="logo"><img src="assets/Intro_Chicago_Logo_cropped.png" alt="Intro Chicago Logo"></div>
+    
+<div class="hours">
+<h2>Serving Hours</h2>
+<p>Lunch is served daily between 11:00am - 2:00pm</p>
+<p>Dinner is served daily between 3:00pm - 10:00pm</p> 
+ 
+</div>
+<div class="restinfo">
+<h2>Address</h2>
+<a href="https://www.google.com/maps/dir/41.888074,-87.6672891/5419+N+Sheridan+Rd,+Chicago,+IL+60640/@41.9292606,-87.7106546,12z/data=!3m1!4b1!4m18!1m7!3m6!1s0x880fd1794a20589b:0x3c3d461f6477c9fa!2s5419+N+Sheridan+Rd,+Chicago,+IL+60640!3b1!8m2!3d41.9803466!4d-87.6543271!4m9!1m1!4e1!1m5!1m1!1s0x880fd1794a20589b:0x3c3d461f6477c9fa!2m2!1d-87.6543271!2d41.9803466!3e0"><p>Intro Chicago</p>
+<p>5419 N Sheridan Rd</p>
+    <p>Chicago, IL 60640</p> </a>
+<a href="tel:1-312-888-8888"><p>(312) 888-8888</p></a>
+</div>
+
+</footer>
+    
+</body>
+
+
+</html>
