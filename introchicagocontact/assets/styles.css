@@ -13,14 +13,9 @@
     font-weight: bold;
 }
 
-
-
-
-
 .topnav {
   overflow: hidden;
 }
-
 .topnav a {
   float: right;
   display: grid;
@@ -29,27 +24,20 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  /*background-color: #f9f8f7;*/
 }
-
 .topnav a:hover {
   background-color: #e8e6de;
 }
-
 .topnav .icon {
   display: none;
 }
-
-
 .topnav a{display: none;}
 .topnav a.icon {
-    /*padding-top: 30px;*/
     font-size: 40pt;  
     float: right;
     display: block;
     background-color: rgba(0,0,0, 0.0);
   }
-
 .topnav.responsive {
     transition-duration: 1s;
     position: fixed;
@@ -75,9 +63,6 @@
   }
 
 
-
-
-
 li img{
     width: 250px;
     height: auto;
@@ -97,7 +82,6 @@ body{
     background-attachment: fixed;
     margin: 0px;
     overflow-x: hidden;
-    /*padding: 0px 10px;*/
 }
 
 h1{
@@ -110,7 +94,6 @@ h1{
 }
 h2{
   font-family: 'Thasadith', sans-serif;
-  /*text-align: center;*/
   font-size: 16pt;
 }
 p{
@@ -164,8 +147,6 @@ span{
 }
 
 .contact-container{
-  /*display: grid;
-  align-content: space-between;*/
   border-width: 2px;
   border-style: solid;
   border-color: #e8e6de;
@@ -201,7 +182,6 @@ span{
     margin: auto;   
     margin-top: 20px;
     margin-bottom: 50px;
-    /*margin: 50px 450px;*/
     background-color: #f9f8f7;
     border-radius: 5px;
 }
@@ -317,7 +297,6 @@ footer{
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    /*background-color: aliceblue;*/
     padding: 0px 15px;
     grid-column: 1;
     grid-row: 2;    
@@ -334,7 +313,6 @@ footer{
 .hours{
     display: grid; 
     grid-template-columns: 1fr;
-    /*background-color: aqua;*/
     grid-column: 2;
     grid-row: 1 / 2;
     padding: 0px 5px;
@@ -371,18 +349,13 @@ float: right;
 .interior{
 float: left;
     height: 300px;
-    /*background-color: aqua;*/
     margin-bottom: 50px;
-    /*background-image: url(foodheadercropped.png);*/
     
 }
 .interior img{
     width: 100%;
     max-height: 300px;
 }
-
-
-
 
 
 
@@ -397,7 +370,6 @@ float: left;
 float: right;
     height: 600px;
     max-width: 610px;
-    /*background-color: aqua;*/
     margin-bottom: 50px;   
 }
 .pho img{
@@ -410,9 +382,7 @@ float: right;
 .interior{
 float: left;
     max-height: 600px;
-    /*background-color: aqua;*/
     margin-bottom: 50px;
-    /*background-image: url(foodheadercropped.png);*/
     
 }
 .interior img{
@@ -421,8 +391,6 @@ float: left;
 }  
  
 .contact-container{
-  /*display: grid;
-  align-content: space-between;*/
   border-width: 2px;
   border-style: solid;
   border-color: #e8e6de;
@@ -446,13 +414,10 @@ float: left;
     margin: auto;   
     margin-top: 20px;
     margin-bottom: 10px;
-    /*margin: 50px 450px;*/
     background-color: #f9f8f7;
     border-radius: 5px;
 }   
 .menu{
-    /*display: grid;
-    align-content: space-between;*/
     border-width: 2px;
     border-style: solid;
     border-color: #e8e6de;
@@ -462,7 +427,6 @@ float: left;
     margin: auto;   
     margin-top: 20px;
     margin-bottom: 50px;
-    /*margin: 50px 450px;*/
     background-color: #f9f8f7;
     border-radius: 5px;
 } 
@@ -526,7 +490,6 @@ footer{
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    /*background-color: aliceblue;*/
     padding: 0px 15px;
     grid-column: 1;
     grid-row: 2;    
@@ -535,7 +498,6 @@ footer{
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    /*background-color: aliceblue;*/
     padding: 0px 15px;
     grid-column: 1;
     grid-row: 1/2;
@@ -545,7 +507,6 @@ footer{
 .hours{
     display: grid; 
     grid-template-columns: 1fr;
-    /*background-color: aqua;*/
     grid-column: 2;
     grid-row: 1 / 2;
     padding: 0px 5px;
@@ -618,7 +579,6 @@ footer{
 float: right;
     height: 800px;
     max-width: 814px;
-    /*background-color: aqua;*/
     margin-bottom: 50px;   
 }
 .pho img{
@@ -711,32 +671,26 @@ footer{
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    /*background-color: aliceblue;*/
     padding: 0px 15px;
     grid-column: 1;
     grid-row: 1;    
-    /*padding-left: 175px;*/
 }   
 .restinfo{
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    /*background-color: aliceblue;*/
     padding: 0px 15px;
     grid-column: 3;
     grid-row: 1;
-    /*padding-left: 175px;*/
     
 }
 
 .hours{
     display: grid; 
     grid-template-columns: 1fr;
-    /*background-color: aqua;*/
     grid-column: 2;
     grid-row: 1 / 2;
     padding: 0px 5px;
-    /*padding-right: 150px;*/
 }
 }
 
